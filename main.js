@@ -1,7 +1,9 @@
-const canvas = document.getElementById('canvas');
-const ctx = canvas.getContext('2d');
-const Canvas_Width = canvas.width  = 600;
-const Canvas_Height = canvas.height = 600;
+window.addEventListner('load'.function() {
+    const canvas = document.getElementById('canvas1');
+    const ctx = canvas.getContext('2d');
+    canvas.width = 500;
+    canvas.height = 500;
+});
 
 //Scientist spritesheet
 const Scientist = new Image();
