@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_Scavenger_Hunt\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,9 +35,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.js",
-              "DocumentMoniker": "D:\\main.js",
-              "ToolTip": "D:\\main.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_Scavenger_Hunt\\main.js",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Summer_Reading_Scavenger_Hunt\\main.js",
+              "ToolTip": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_Scavenger_Hunt\\main.js",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\Summer_Reading_Scavenger_Hunt\\main.js",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-01-28T22:44:48.525Z",
               "EditorCaption": ""
