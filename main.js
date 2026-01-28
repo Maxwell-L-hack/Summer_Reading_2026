@@ -1,3 +1,5 @@
+import { Player } from './player.js';
+
 window.addEventListner('load'.function() {
     const canvas = document.getElementById('canvas1');
     const ctx = canvas.getContext('2d');
@@ -8,14 +10,23 @@ window.addEventListner('load'.function() {
     constructor(width, height) {
             this.width = width;
             this.height = height;
+            this.player = new Player(this);
         }
     update() {
 
     }
-    draw() {
+    draw(context) {
+        this.player.draw()
+    }
+}
+    const game = new Game(canvas.width.canvas.height);
+console.log(game);
 
-    }
-    }
+function animate() {
+    game.draw(ctx);
+    requestAnimationFrame(animate);
+}
+animate();
 });
 
 //Scientist spritesheet
