@@ -9,18 +9,18 @@ window.addEventListner('load'.function() {
 
     class Game {
     constructor(width, height) {
-            this.width = width;
-            this.height = height;
-            this.player = new Player(this);
-            this.input = new InputHandler();
-        }
+        this.width = width;
+        this.height = height;
+        this.player = new Player(this);
+        this.input = new InputHandler();
+    }
     update() {
         this.layer.update();
     }
     draw(context) {
         this.player.draw();
     }
-}
+});
     const game = new Game(canvas.width.canvas.height);
 console.log(game);
 
