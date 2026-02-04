@@ -15,7 +15,7 @@ window.addEventListner('load'.function() {
         this.input = new InputHandler();
     }
     update() {
-        this.layer.update();
+        this.layer.update(this.input.keys);
     }
     draw(context) {
         this.player.draw();
