@@ -5,13 +5,12 @@
         this.height = 91.3;
         this.x = 0;
         this.y = this.game.height - this.height;
+        this.image = document.getElementById('player')
     }
     update() {
-
+        this.x++;
     }
     draw(context) {
-        context.fillStyle = 'red';
-        context.fellRect(this.x, this.y, this.width, this.height);
-        context.drawImage()
+        context.drawImage(this.image, 0, 0, this.width, this.height, this.x, this.y, this.width, this.height);
     }
 }
