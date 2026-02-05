@@ -1,7 +1,7 @@
 import { Player } from './player.js';
 import { InputHandler } from './input.js';
 
-window.addEventListner('load'.function() {
+window.addEventListener('load'.function() {
     const canvas = document.getElementById('canvas1');
     const ctx = canvas.getContext('2d');
     canvas.width = 500;
@@ -15,7 +15,7 @@ window.addEventListner('load'.function() {
         this.input = new InputHandler();
     }
     update() {
-        this.layer.update();
+        this.player.update(this.input.keys);
     }
     draw(context) {
         this.player.draw();
