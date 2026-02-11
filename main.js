@@ -1,24 +1,25 @@
 import { Player } from './player.js';
 import { InputHandler } from './input.js';
 
-window.addEventListener('load'.function() {
+window.addEventListener('load', function () {
     const canvas = document.getElementById('canvas1');
     const ctx = canvas.getContext('2d');
     canvas.width = 500;
     canvas.height = 500;
 
     class Game {
-    constructor(width, height) {
-        this.width = width;
-        this.height = height;
-        this.player = new Player(this);
-        this.input = new InputHandler();
-    }
-    update() {
-        this.player.update(this.input.keys);
-    }
-    draw(context) {
-        this.player.draw();
+        constructor(width, height) {
+            this.width = width;
+            this.height = height;
+            this.player = new Player(this);
+            this.input = new InputHandler();
+        }
+        update() {
+            this.player.update(this.input.keys);
+        }
+        draw(context) {
+            this.player.draw();
+        }
     }
 });
     const game = new Game(canvas.width.canvas.height);
@@ -38,6 +39,7 @@ const Player = new Image();
 playerImage.src = 'Assets/testing-assets.PNG'
 const spriteHeight = 500;
 const spriteWidth = 400;
+/*
 //Scientist spritesheet
 const Scientist = new Image();
 playerImage.src = 'scientist_animations.png'
@@ -124,3 +126,4 @@ let frameY = spriteAnimations[playerState].loc[position].y;
     requestAnimationFrame(animate)
 };
 animate();
+*/
