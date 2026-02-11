@@ -22,7 +22,7 @@
         // vertical movement
         if (input.includes('ArrowUp') && this.onGround()) this.vy -= 10;
         this.y += this.vy;
-        if (this.onGround()) this.vy += this.weight;
+        if (!this.onGround()) this.vy += this.weight;
         else this.vy += this.weight * 0.5;
     }
     draw(context) {
