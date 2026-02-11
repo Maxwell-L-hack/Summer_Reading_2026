@@ -1,4 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
-    let dnaCodeString = document.getElementById("dna_code").value;
-    console.log(dnaCodeString);
+    const dnaInput = document.getElementById("dna_code");
+    
+    dnaInput.addEventListener("keypress", function(event) {
+        if (event.key === "Enter") {
+            let dnaCodeString = dnaInput.value;
+            console.log(dnaCodeString);
+        }
+    });
 });
