@@ -32,7 +32,7 @@ function animate() {
     requestAnimationFrame(animate);
 }
 animate();
-});
+);
 
 //Testing
 const Player = new Image();
