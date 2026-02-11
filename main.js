@@ -33,6 +33,11 @@ function animate() {
 animate();
 });
 
+//Testing
+const Player = new Image();
+playerImage.src = 'Assets/testing-assets.PNG'
+const spriteHeight = 500;
+const spriteWidth = 400;
 //Scientist spritesheet
 const Scientist = new Image();
 playerImage.src = 'scientist_animations.png'
