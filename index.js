@@ -3,7 +3,7 @@ let dnaCodeString;
 
 dnaInput.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
-        let dnaCodeString = dnaInput.value;
+        dnaCodeString = dnaInput.value;
     }
 });
 
