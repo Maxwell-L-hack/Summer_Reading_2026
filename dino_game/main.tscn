@@ -142,7 +142,7 @@ tile_map_data = PackedByteArray("AAABAAEAAAAAAAEAAAACAAEAAAABAAEAAAADAAEAAAABAAE
 tile_set = SubResource("TileSet_epypp")
 
 [node name="Player" parent="." unique_id=609772560 instance=ExtResource("2_0xm2m")]
-position = Vector2(66, -10)
+position = Vector2(78, -29)
 
 [node name="Checkpoint" type="Node2D" parent="." unique_id=2020025196]
 script = ExtResource("3_h2yge")
