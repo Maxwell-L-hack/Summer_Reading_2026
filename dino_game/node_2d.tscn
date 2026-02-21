@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://xpuwhr3q0qdf"]
+
+[ext_resource type="Texture2D" uid="uid://d35fvm7mb6uuh" path="res://ground-tilemap.png" id="1_wtcfe"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0e48y"]
+texture = ExtResource("1_wtcfe")
+texture_region_size = Vector2i(44, 44)
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:0/0 = 0
+2:1/0 = 0
+2:2/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_y32ns"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_0e48y")
+
+[node name="Node2D" type="Node2D" unique_id=1430150281]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=905663505]
+tile_set = SubResource("TileSet_y32ns")
