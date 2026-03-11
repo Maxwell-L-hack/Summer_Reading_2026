@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://d35fvm7mb6uuh" path="res://ground-tilemap.png" id="1_ig7tw"]
 [ext_resource type="PackedScene" uid="uid://y71nqbw4gja0" path="res://player.tscn" id="2_0xm2m"]
 [ext_resource type="Script" uid="uid://bdwwiul12hdgv" path="res://checkpoint.gd" id="3_h2yge"]
+[ext_resource type="AudioStream" uid="uid://bia2w7miyswbp" path="res://platformer_background.wav" id="4_1bvp3"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_wtcfe"]
 
@@ -146,3 +147,7 @@ position = Vector2(78, -29)
 
 [node name="Checkpoint" type="Node2D" parent="." unique_id=2020025196]
 script = ExtResource("3_h2yge")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1593517302]
+stream = ExtResource("4_1bvp3")
+autoplay = true
