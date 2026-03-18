@@ -22,3 +22,13 @@ p {
     margin: 10px 10px auto;
     align-content: center;
 }
+.moneyamount {
+    font-size: 30px;
+    font-family: 'Impact';
+    text-align: center;
+}
+.bidder {
+    font-size: 25px;
+    font-family: 'Secret Mansion';
+    text-align: center;
+}
