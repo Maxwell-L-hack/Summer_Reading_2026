@@ -28,7 +28,9 @@ p {
     text-align: center;
 }
 .bidder {
+    
     font-size: 25px;
+    /*Change font*/
     font-family: 'Secret Mansion';
     text-align: center;
 }
