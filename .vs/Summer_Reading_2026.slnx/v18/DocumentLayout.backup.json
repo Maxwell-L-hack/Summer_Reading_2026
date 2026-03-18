@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\",
+  "WorkspaceRootPath": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\playerStates.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\playerStates.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:playerStates.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\player.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\player.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:player.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\input.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\input.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:input.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -68,9 +68,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "playerStates.js",
-              "DocumentMoniker": "C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\playerStates.js",
+              "DocumentMoniker": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\playerStates.js",
               "RelativeDocumentMoniker": "playerStates.js",
-              "ToolTip": "C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\playerStates.js",
+              "ToolTip": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\playerStates.js",
               "RelativeToolTip": "playerStates.js",
               "ViewState": "AgIAACEAAAAAAAAAAAAswDgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -81,9 +81,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\index.html",
+              "DocumentMoniker": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\index.html",
               "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\index.html",
+              "ToolTip": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\index.html",
               "RelativeToolTip": "index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -93,9 +93,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "input.js",
-              "DocumentMoniker": "C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\input.js",
+              "DocumentMoniker": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\input.js",
               "RelativeDocumentMoniker": "input.js",
-              "ToolTip": "C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\input.js",
+              "ToolTip": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\input.js",
               "RelativeToolTip": "input.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -105,9 +105,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "main.js",
-              "DocumentMoniker": "C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\main.js",
+              "DocumentMoniker": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\main.js",
               "RelativeDocumentMoniker": "main.js",
-              "ToolTip": "C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\main.js",
+              "ToolTip": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\main.js",
               "RelativeToolTip": "main.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -117,9 +117,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "player.js",
-              "DocumentMoniker": "C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\player.js",
+              "DocumentMoniker": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\player.js",
               "RelativeDocumentMoniker": "player.js",
-              "ToolTip": "C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\player.js",
+              "ToolTip": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\player.js",
               "RelativeToolTip": "player.js",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -129,9 +129,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\styles.css",
+              "DocumentMoniker": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\styles.css",
               "RelativeDocumentMoniker": "styles.css",
-              "ToolTip": "C:\\Users\\SaintPeter\\source\\repos\\Summer_Reading_2026\\styles.css",
+              "ToolTip": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\styles.css",
               "RelativeToolTip": "styles.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",

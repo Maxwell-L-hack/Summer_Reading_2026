@@ -17,3 +17,8 @@ p {
     display: block;
     margin: 50px auto;
 }
+.moneybutton {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px auto;
+    align-content: center;
+}
