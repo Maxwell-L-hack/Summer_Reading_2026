@@ -1,4 +1,11 @@
-﻿body
+﻿@font-face{
+    font-family: 'Pinyon Script';
+    src: url('Assets/fonts/PinyonScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body
 {
 }
 button {
@@ -11,7 +18,7 @@ h1 {
 }
 p {
     text-align: center;
-    font-family: 'Freestyle Script';
+    font-family: "Pinyon Script";
     font-size: 30px;
     max-width: 40%;
     display: block;
@@ -28,9 +35,13 @@ p {
     text-align: center;
 }
 .bidder {
-    
     font-size: 35px;
     /*Change font*/
     font-family: 'Gloucester MT';
     text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
