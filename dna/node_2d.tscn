@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://7ebxvwgpurmn"]
+
+[ext_resource type="Texture2D" uid="uid://ckxga1r3h0g23" path="res://dna1.png" id="1_0e48y"]
+[ext_resource type="Script" uid="uid://dtr5orhr8jsxm" path="res://dragdrop.gd" id="1_epypp"]
+[ext_resource type="Texture2D" uid="uid://ckgho5ib4o4s" path="res://dna2.png" id="3_q6r6c"]
+[ext_resource type="Texture2D" uid="uid://dpcs47h8xnfba" path="res://dna3.png" id="4_kdubu"]
+[ext_resource type="Texture2D" uid="uid://dndk1rpx1hx1t" path="res://dna4.png" id="5_d21ai"]
+
+[node name="Node2D" type="Node2D" unique_id=1942390268]
+script = ExtResource("1_epypp")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=795111495]
+texture = ExtResource("1_0e48y")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=37243090]
+texture = ExtResource("3_q6r6c")
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=550431155]
+texture = ExtResource("4_kdubu")
+
+[node name="Sprite2D4" type="Sprite2D" parent="." unique_id=573867068]
+texture = ExtResource("5_d21ai")
