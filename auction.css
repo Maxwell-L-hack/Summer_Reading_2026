@@ -45,6 +45,7 @@ p {
     display: flex;
     align-items: center;
     gap: 10px;
+    justify-content: center;
 }
 .container p {
     margin: 0;
