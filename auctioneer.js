@@ -2,6 +2,7 @@ const more = document.getElementById("more");
 const less = document.getElementById("less");
 const moneyAmount = document.getElementById("money amount");
 const bidder = document.getElementById("bidder");
+const continueButton = document.getElementById("continue");
 var money = 0;
 
 function updateBidder() {
@@ -40,4 +41,8 @@ function subtract() {
 };
 less.onclick = subtract;
 more.onclick = add;
-
+function contButton() {
+    money = 11000;
+    console.log("continue");
+    updatecontinueButton();
+}
