@@ -21,8 +21,10 @@ function updateBidder() {
         case 11000:
             bidder.textContent = "There is one bidder.  This bidder is the Corporate Corporation, a group known for research and questionable morals.";
             break;
-        case (money >= 12000):
-            bidder.textContent = "There are no bidders.  Lower the price.";
+        default:
+            if (money >= 12000) {
+                bidder.textContent = "There are no bidders.  Lower the price.";
+            }
             break;
     }
 }
