@@ -9,8 +9,8 @@ function updateBidder() {
     if (money) moneyAmount.textContent = `$${money}`;
 
     switch (money) {
-        case 0:
-            bidder.textContent = "There are no bidders.";
+        case  0:
+            bidder.textContent = "Start rasing the price to start the auction.";
             break;
         case 1000:
             bidder.textContent = "There are three bidders.";
@@ -46,3 +46,5 @@ function contButton() {
     console.log("continue");
     updatecontinueButton();
 }
+
+updateBidder();

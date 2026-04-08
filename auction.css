@@ -53,4 +53,5 @@ p {
 .contbutton {
     display: flex;
     margin: 20px 0px 0px 5px;
+    justify-content: right;
 }
