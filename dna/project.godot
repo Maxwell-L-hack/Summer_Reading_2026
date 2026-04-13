@@ -11,10 +11,14 @@ config_version=5
 [application]
 
 config/name="DNA"
-run/main_scene="uid://7ebxvwgpurmn"
+run/main_scene="uid://c5xwkbumlrbk1"
 config/use_hidden_project_data_directory=false
-config/features=PackedStringArray("4.7", "GL Compatibility")
+config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+global="*uid://bw0pwurmfv6fx"
 
 [physics]
 

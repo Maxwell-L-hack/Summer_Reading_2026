@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://c5xwkbumlrbk1"]
+
+[ext_resource type="PackedScene" uid="uid://7ebxvwgpurmn" path="res://DropZone.tscn" id="1_fj7yv"]
+[ext_resource type="Texture2D" uid="uid://ckxga1r3h0g23" path="res://dna1.png" id="2_tlwt5"]
+
+[node name="world" type="Node2D" unique_id=1794103676]
+
+[node name="SnapZone" parent="." unique_id=655855762 instance=ExtResource("1_fj7yv")]
+position = Vector2(0, 1)
+
+[node name="Dna1" type="Sprite2D" parent="." unique_id=258601456]
+position = Vector2(675, 375)
+texture = ExtResource("2_tlwt5")
+
+[node name="SnapZone2" parent="." unique_id=6131808 instance=ExtResource("1_fj7yv")]
+position = Vector2(49, 474)
+
+[node name="SnapZone3" parent="." unique_id=149547708 instance=ExtResource("1_fj7yv")]
+position = Vector2(608, 161)

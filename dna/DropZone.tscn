@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://7ebxvwgpurmn"]
+
+[ext_resource type="Script" uid="uid://b2ij37btbhqvy" path="res://SnapZone.gd" id="1_wa0ki"]
+
+[node name="SnapZone" type="StaticBody2D" unique_id=655855762 groups=["dropable"]]
+script = ExtResource("1_wa0ki")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1823412370]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1218123599]
+offset_right = 485.0
+offset_bottom = 140.0
+color = Color(1, 1, 1, 0.39215687)
