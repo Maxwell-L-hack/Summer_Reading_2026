@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dpcs47h8xnfba"
-path="res://godot/imported/dna3.png-0c0e4ef8d006084706f07d4dfd0a6e42.ctex"
+uid="uid://da884b3wn6t61"
+path="res://.godot/imported/dna3.png-0c0e4ef8d006084706f07d4dfd0a6e42.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://dna3.png"
-dest_files=["res://godot/imported/dna3.png-0c0e4ef8d006084706f07d4dfd0a6e42.ctex"]
+dest_files=["res://.godot/imported/dna3.png-0c0e4ef8d006084706f07d4dfd0a6e42.ctex"]
 
 [params]
 

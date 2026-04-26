@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://7ebxvwgpurmn" path="res://DropZone.tscn" id="1_fj7yv"]
 [ext_resource type="Texture2D" uid="uid://ckxga1r3h0g23" path="res://dna1.png" id="2_tlwt5"]
 
-[node name="world" type="Node2D" unique_id=1794103676]
+[node name="world" type="Node2D" unique_id=1794103676 groups=["dropable"]]
 
 [node name="SnapZone" parent="." unique_id=655855762 instance=ExtResource("1_fj7yv")]
 position = Vector2(0, 1)
