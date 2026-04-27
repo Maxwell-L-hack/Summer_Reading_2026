@@ -9,7 +9,7 @@ offset_bottom = 40.0
 expand_mode = 1
 script = ExtResource("2_0xm2m")
 
-[node name="Panel" type="Panel" parent="." unique_id=169935502]
+[node name="Visible" type="Panel" parent="." unique_id=169935502]
 show_behind_parent = true
 custom_minimum_size = Vector2(243, 70.5)
 layout_mode = 0

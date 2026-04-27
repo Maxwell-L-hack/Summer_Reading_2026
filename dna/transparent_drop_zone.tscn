@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://swplkwk8ry8t"]
+
+[ext_resource type="Script" uid="uid://cl0m8fqcye5uh" path="res://transparent_drop_zone.gd" id="1_8puwv"]
+
+[node name="transparent_drop_zone" type="TextureRect" unique_id=201633483]
+custom_minimum_size = Vector2(243, 70.5)
+offset_right = 40.0
+offset_bottom = 40.0
+expand_mode = 1
+script = ExtResource("1_8puwv")
+
+[node name="Transparent" type="Panel" parent="." unique_id=466207612]
+visible = false
+custom_minimum_size = Vector2(243, 70.5)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
