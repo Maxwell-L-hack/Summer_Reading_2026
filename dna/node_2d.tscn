@@ -10,6 +10,7 @@
 [node name="Node2D" type="Node2D" unique_id=400444941]
 
 [node name="TextureRect" parent="." unique_id=762736414 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
 offset_left = 718.0
 offset_top = 69.0
 offset_right = 961.0
@@ -18,6 +19,7 @@ texture = ExtResource("2_0e48y")
 flip_h = true
 
 [node name="TextureRect2" parent="." unique_id=1604301301 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
 offset_left = 719.0
 offset_top = 333.0
 offset_right = 962.0
@@ -25,6 +27,7 @@ offset_bottom = 403.5
 texture = ExtResource("3_kdubu")
 
 [node name="TextureRect3" parent="." unique_id=1461985476 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
 offset_left = 723.0
 offset_top = 202.0
 offset_right = 966.0
@@ -33,6 +36,7 @@ texture = ExtResource("4_kdubu")
 flip_h = true
 
 [node name="TextureRect4" parent="." unique_id=599703632 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
 offset_left = 722.0
 offset_top = 461.0
 offset_right = 965.0
@@ -40,12 +44,14 @@ offset_bottom = 531.5
 texture = ExtResource("5_kdubu")
 
 [node name="TextureRect5" parent="." unique_id=165392487 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
 offset_left = 36.0
-offset_top = 70.0
+offset_top = 71.0
 offset_right = 279.0
-offset_bottom = 140.5
+offset_bottom = 141.5
 
 [node name="TextureRect6" parent="." unique_id=725121228 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
 offset_left = 23.0
 offset_top = 205.0
 offset_right = 266.0
@@ -53,12 +59,14 @@ offset_bottom = 275.5
 texture = ExtResource("4_kdubu")
 
 [node name="TextureRect7" parent="." unique_id=1056710032 instance=ExtResource("1_wtcfe")]
-offset_left = 26.0
+texture_filter = 1
+offset_left = 62.0
 offset_top = 329.0
-offset_right = 269.0
+offset_right = 305.0
 offset_bottom = 399.5
 
 [node name="TextureRect8" parent="." unique_id=302349313 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
 offset_left = 23.0
 offset_top = 456.0
 offset_right = 266.0
@@ -66,6 +74,7 @@ offset_bottom = 526.5
 texture = ExtResource("2_0e48y")
 
 [node name="TextureRect9" parent="." unique_id=2010952608 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
 offset_left = 243.0
 offset_top = 70.0
 offset_right = 486.0
@@ -74,13 +83,15 @@ texture = ExtResource("3_kdubu")
 flip_h = true
 
 [node name="TextureRect10" parent="." unique_id=1290798520 instance=ExtResource("1_wtcfe")]
-offset_left = 266.0
+texture_filter = 1
+offset_left = 231.0
 offset_top = 205.0
-offset_right = 509.0
+offset_right = 474.0
 offset_bottom = 275.5
 flip_h = true
 
 [node name="TextureRect11" parent="." unique_id=834325173 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
 offset_left = 269.0
 offset_top = 329.0
 offset_right = 512.0
@@ -89,9 +100,10 @@ texture = ExtResource("5_kdubu")
 flip_h = true
 
 [node name="TextureRect12" parent="." unique_id=258323310 instance=ExtResource("1_wtcfe")]
-offset_left = 266.0
+texture_filter = 1
+offset_left = 231.0
 offset_top = 456.0
-offset_right = 509.0
+offset_right = 474.0
 offset_bottom = 526.5
 flip_h = true
 
