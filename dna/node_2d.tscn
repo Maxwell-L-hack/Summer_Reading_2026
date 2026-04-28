@@ -2,9 +2,9 @@
 
 [ext_resource type="PackedScene" uid="uid://ysddcwjgp0jm" path="res://main.tscn" id="1_wtcfe"]
 [ext_resource type="Texture2D" uid="uid://p0nitmq0p1rr" path="res://dna1.png" id="2_0e48y"]
-[ext_resource type="Texture2D" uid="uid://da884b3wn6t61" path="res://dna3.png" id="3_q6r6c"]
-[ext_resource type="Texture2D" uid="uid://b8gf8witp2ukx" path="res://dna2.png" id="4_kdubu"]
-[ext_resource type="Texture2D" uid="uid://dl0jjjyvk8rdy" path="res://dna4.png" id="5_d21ai"]
+[ext_resource type="Texture2D" uid="uid://e58i1428lj1u" path="res://dna-green.png" id="3_kdubu"]
+[ext_resource type="Texture2D" uid="uid://bsolt3ydbfptm" path="res://dna-yellow.png" id="4_kdubu"]
+[ext_resource type="Texture2D" uid="uid://bimnobeyi6n31" path="res://dna-pink.png" id="5_kdubu"]
 [ext_resource type="PackedScene" uid="uid://swplkwk8ry8t" path="res://transparent_drop_zone.tscn" id="6_kdubu"]
 
 [node name="Node2D" type="Node2D" unique_id=400444941]
@@ -22,7 +22,7 @@ offset_left = 719.0
 offset_top = 333.0
 offset_right = 962.0
 offset_bottom = 403.5
-texture = ExtResource("3_q6r6c")
+texture = ExtResource("3_kdubu")
 
 [node name="TextureRect3" parent="." unique_id=1461985476 instance=ExtResource("1_wtcfe")]
 offset_left = 723.0
@@ -37,11 +37,12 @@ offset_left = 722.0
 offset_top = 461.0
 offset_right = 965.0
 offset_bottom = 531.5
-texture = ExtResource("5_d21ai")
+texture = ExtResource("5_kdubu")
 
 [node name="TextureRect5" parent="." unique_id=165392487 instance=ExtResource("1_wtcfe")]
+offset_left = 36.0
 offset_top = 70.0
-offset_right = 243.0
+offset_right = 279.0
 offset_bottom = 140.5
 
 [node name="TextureRect6" parent="." unique_id=725121228 instance=ExtResource("1_wtcfe")]
@@ -69,7 +70,7 @@ offset_left = 243.0
 offset_top = 70.0
 offset_right = 486.0
 offset_bottom = 140.5
-texture = ExtResource("3_q6r6c")
+texture = ExtResource("3_kdubu")
 flip_h = true
 
 [node name="TextureRect10" parent="." unique_id=1290798520 instance=ExtResource("1_wtcfe")]
@@ -84,7 +85,7 @@ offset_left = 269.0
 offset_top = 329.0
 offset_right = 512.0
 offset_bottom = 399.5
-texture = ExtResource("5_d21ai")
+texture = ExtResource("5_kdubu")
 flip_h = true
 
 [node name="TextureRect12" parent="." unique_id=258323310 instance=ExtResource("1_wtcfe")]
