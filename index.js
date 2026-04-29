@@ -10,5 +10,13 @@ dnaInput.addEventListener("keypress", function(event) {
 
 function handleDnaCode(code) {
     console.log(code);
-    // Do whatever you need with the dna code here
+    if (code === "Kjotteter") {
+        loadDna("Carnivore")
+    }
+    else if (code === "Kai vao") {
+        loadDna("Herbivore")
+    }
+    else if (code === "Noj txhua yam") {
+        loadDna("Omnivore")
+    }
 }
