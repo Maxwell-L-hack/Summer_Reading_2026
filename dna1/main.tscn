@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://ysddcwjgp0jm"]
+
+[ext_resource type="Script" uid="uid://bkttyfhetkevx" path="res://main.gd" id="2_0xm2m"]
+
+[node name="TextureRect" type="TextureRect" unique_id=762736414]
+custom_minimum_size = Vector2(243, 70.5)
+offset_right = 40.0
+offset_bottom = 40.0
+expand_mode = 1
+script = ExtResource("2_0xm2m")
+
+[node name="Visible" type="Panel" parent="." unique_id=169935502]
+show_behind_parent = true
+custom_minimum_size = Vector2(243, 70.5)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2

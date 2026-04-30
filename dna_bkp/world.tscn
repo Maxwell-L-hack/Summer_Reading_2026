@@ -4,13 +4,19 @@
 [ext_resource type="Texture2D" uid="uid://ckxga1r3h0g23" path="res://dna1.png" id="2_tlwt5"]
 
 [node name="world" type="Node2D" unique_id=1794103676 groups=["dropable"]]
+<<<<<<< Updated upstream:dna_bkp/world.tscn
 
 [node name="SnapZone" parent="." unique_id=655855762 instance=ExtResource("1_fj7yv")]
 position = Vector2(0, 1)
+=======
+>>>>>>> Stashed changes:dna/world.tscn
 
 [node name="Dna1" type="Sprite2D" parent="." unique_id=258601456]
 position = Vector2(675, 375)
 texture = ExtResource("2_tlwt5")
+
+[node name="SnapZone" parent="." unique_id=655855762 instance=ExtResource("1_fj7yv")]
+position = Vector2(53, 48)
 
 [node name="SnapZone2" parent="." unique_id=6131808 instance=ExtResource("1_fj7yv")]
 position = Vector2(49, 474)

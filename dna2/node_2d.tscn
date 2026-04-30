@@ -1,0 +1,392 @@
+[gd_scene format=3 uid="uid://bqjvvb04y12ln"]
+
+[ext_resource type="PackedScene" uid="uid://ysddcwjgp0jm" path="res://main.tscn" id="1_wtcfe"]
+[ext_resource type="Texture2D" uid="uid://p0nitmq0p1rr" path="res://dna1.png" id="2_0e48y"]
+[ext_resource type="Texture2D" uid="uid://e58i1428lj1u" path="res://dna-green.png" id="3_kdubu"]
+[ext_resource type="Texture2D" uid="uid://bsolt3ydbfptm" path="res://dna-yellow.png" id="4_kdubu"]
+[ext_resource type="Texture2D" uid="uid://bimnobeyi6n31" path="res://dna-pink.png" id="5_kdubu"]
+[ext_resource type="PackedScene" uid="uid://swplkwk8ry8t" path="res://transparent_drop_zone.tscn" id="6_kdubu"]
+
+[node name="Node2D" type="Node2D" unique_id=400444941]
+
+[node name="TextureRect" parent="." unique_id=762736414 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
+offset_left = 718.0
+offset_top = 69.0
+offset_right = 961.0
+offset_bottom = 139.5
+texture = ExtResource("2_0e48y")
+
+[node name="TextureRect2" parent="." unique_id=1604301301 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
+offset_left = 719.0
+offset_top = 333.0
+offset_right = 962.0
+offset_bottom = 403.5
+texture = ExtResource("3_kdubu")
+
+[node name="TextureRect3" parent="." unique_id=1461985476 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
+offset_left = 723.0
+offset_top = 202.0
+offset_right = 966.0
+offset_bottom = 272.5
+texture = ExtResource("4_kdubu")
+flip_h = true
+
+[node name="TextureRect4" parent="." unique_id=599703632 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
+offset_left = 722.0
+offset_top = 461.0
+offset_right = 965.0
+offset_bottom = 531.5
+texture = ExtResource("5_kdubu")
+flip_h = true
+
+[node name="TextureRect5" parent="." unique_id=165392487 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
+offset_left = 36.0
+offset_top = 71.0
+offset_right = 279.0
+offset_bottom = 141.5
+texture = ExtResource("2_0e48y")
+
+[node name="TextureRect6" parent="." unique_id=725121228 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
+offset_left = 23.0
+offset_top = 205.0
+offset_right = 266.0
+offset_bottom = 275.5
+
+[node name="TextureRect7" parent="." unique_id=1056710032 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
+offset_left = 62.0
+offset_top = 329.0
+offset_right = 305.0
+offset_bottom = 399.5
+
+[node name="TextureRect8" parent="." unique_id=302349313 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
+offset_left = 23.0
+offset_top = 456.0
+offset_right = 266.0
+offset_bottom = 526.5
+texture = ExtResource("3_kdubu")
+
+[node name="TextureRect9" parent="." unique_id=2010952608 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
+offset_left = 243.0
+offset_top = 70.0
+offset_right = 486.0
+offset_bottom = 140.5
+flip_h = true
+
+[node name="TextureRect10" parent="." unique_id=1290798520 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
+offset_left = 231.0
+offset_top = 205.0
+offset_right = 474.0
+offset_bottom = 275.5
+texture = ExtResource("5_kdubu")
+flip_h = true
+
+[node name="TextureRect11" parent="." unique_id=834325173 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
+offset_left = 269.0
+offset_top = 329.0
+offset_right = 512.0
+offset_bottom = 399.5
+texture = ExtResource("4_kdubu")
+flip_h = true
+
+[node name="TextureRect12" parent="." unique_id=258323310 instance=ExtResource("1_wtcfe")]
+texture_filter = 1
+offset_left = 231.0
+offset_top = 456.0
+offset_right = 474.0
+offset_bottom = 526.5
+flip_h = true
+
+[node name="transparent_drop_zone" parent="." unique_id=201633483 instance=ExtResource("6_kdubu")]
+offset_left = -2.0
+offset_right = 241.0
+offset_bottom = 70.5
+
+[node name="transparent_drop_zone" parent="transparent_drop_zone" unique_id=19562204 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 204.0
+offset_right = 244.0
+offset_bottom = 274.5
+
+[node name="transparent_drop_zone3" parent="." unique_id=813282568 instance=ExtResource("6_kdubu")]
+offset_left = 239.0
+offset_right = 482.0
+offset_bottom = 70.5
+
+[node name="transparent_drop_zone3" parent="transparent_drop_zone3" unique_id=1378726897 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_left = 239.0
+offset_right = 482.0
+offset_bottom = 70.5
+
+[node name="transparent_drop_zone7" parent="." unique_id=1640403195 instance=ExtResource("6_kdubu")]
+offset_left = 239.0
+offset_top = 273.0
+offset_right = 482.0
+offset_bottom = 343.5
+
+[node name="transparent_drop_zone2" parent="." unique_id=174656782 instance=ExtResource("6_kdubu")]
+offset_left = 239.0
+offset_top = 135.0
+offset_right = 482.0
+offset_bottom = 205.5
+
+[node name="transparent_drop_zone3" parent="transparent_drop_zone2" unique_id=852491714 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_left = 239.0
+offset_top = 135.0
+offset_right = 482.0
+offset_bottom = 205.5
+
+[node name="transparent_drop_zone2" parent="transparent_drop_zone2/transparent_drop_zone3" unique_id=1507026310 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 69.0
+offset_right = 243.0
+offset_bottom = 139.5
+
+[node name="transparent_drop_zone2" parent="transparent_drop_zone2/transparent_drop_zone3/transparent_drop_zone2" unique_id=182407238 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 69.0
+offset_right = 243.0
+offset_bottom = 139.5
+
+[node name="transparent_drop_zone2" parent="transparent_drop_zone2/transparent_drop_zone3/transparent_drop_zone2/transparent_drop_zone2" unique_id=474886713 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 69.0
+offset_right = 243.0
+offset_bottom = 139.5
+
+[node name="transparent_drop_zone2" parent="transparent_drop_zone2/transparent_drop_zone3/transparent_drop_zone2/transparent_drop_zone2/transparent_drop_zone2" unique_id=622975341 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 69.0
+offset_right = 243.0
+offset_bottom = 139.5
+
+[node name="transparent_drop_zone2" parent="transparent_drop_zone2/transparent_drop_zone3/transparent_drop_zone2/transparent_drop_zone2/transparent_drop_zone2/transparent_drop_zone2" unique_id=409626462 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 69.0
+offset_right = 243.0
+offset_bottom = 139.5
+
+[node name="transparent_drop_zone2" parent="transparent_drop_zone2/transparent_drop_zone3/transparent_drop_zone2/transparent_drop_zone2/transparent_drop_zone2/transparent_drop_zone2/transparent_drop_zone2" unique_id=1933065730 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 69.0
+offset_right = 243.0
+offset_bottom = 139.5
+
+[node name="transparent_drop_zone2" parent="transparent_drop_zone2/transparent_drop_zone3/transparent_drop_zone2/transparent_drop_zone2/transparent_drop_zone2/transparent_drop_zone2/transparent_drop_zone2/transparent_drop_zone2" unique_id=1406665178 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 69.0
+offset_right = 243.0
+offset_bottom = 139.5
+
+[node name="transparent_drop_zone4" parent="." unique_id=127674501 instance=ExtResource("6_kdubu")]
+offset_left = 721.0
+offset_right = 964.0
+offset_bottom = 70.5
+
+[node name="transparent_drop_zone5" parent="." unique_id=1313829769 instance=ExtResource("6_kdubu")]
+offset_left = 954.0
+offset_right = 1197.0
+offset_bottom = 70.5
+
+[node name="transparent_drop_zone9" parent="." unique_id=279091918 instance=ExtResource("6_kdubu")]
+offset_left = 6.0
+offset_top = 393.0
+offset_right = 249.0
+offset_bottom = 463.5
+
+[node name="transparent_drop_zone6" parent="transparent_drop_zone9" unique_id=337459370 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 66.0
+offset_right = 243.0
+offset_bottom = 136.5
+
+[node name="transparent_drop_zone6" parent="transparent_drop_zone9/transparent_drop_zone6" unique_id=1384440268 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 66.0
+offset_right = 243.0
+offset_bottom = 136.5
+
+[node name="transparent_drop_zone6" parent="." unique_id=1419232868 instance=ExtResource("6_kdubu")]
+offset_left = 483.0
+offset_top = 70.0
+offset_right = 726.0
+offset_bottom = 140.5
+
+[node name="transparent_drop_zone6" parent="transparent_drop_zone6" unique_id=373845153 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_left = -4.0
+offset_top = 65.0
+offset_right = 239.0
+offset_bottom = 135.5
+
+[node name="transparent_drop_zone6" parent="transparent_drop_zone6/transparent_drop_zone6" unique_id=1167506551 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 66.0
+offset_right = 243.0
+offset_bottom = 136.5
+
+[node name="transparent_drop_zone6" parent="transparent_drop_zone6/transparent_drop_zone6/transparent_drop_zone6" unique_id=173840742 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_left = -473.0
+offset_top = -72.0
+offset_right = -230.0
+offset_bottom = -1.5
+
+[node name="transparent_drop_zone2" parent="transparent_drop_zone6/transparent_drop_zone6/transparent_drop_zone6" unique_id=719446755 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_left = -479.0
+offset_top = 384.0
+offset_right = -236.0
+offset_bottom = 454.5
+
+[node name="transparent_drop_zone8" parent="." unique_id=1253471366 instance=ExtResource("6_kdubu")]
+offset_left = 956.0
+offset_top = 68.0
+offset_right = 1199.0
+offset_bottom = 138.5
+
+[node name="transparent_drop_zone8" parent="transparent_drop_zone8" unique_id=1099732508 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 64.0
+offset_right = 244.0
+offset_bottom = 134.5
+
+[node name="transparent_drop_zone8" parent="transparent_drop_zone8/transparent_drop_zone8" unique_id=1538738120 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 64.0
+offset_right = 243.0
+offset_bottom = 134.5
+
+[node name="transparent_drop_zone8" parent="transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8" unique_id=2089818153 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 64.0
+offset_right = 243.0
+offset_bottom = 134.5
+
+[node name="transparent_drop_zone8" parent="transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8" unique_id=669184894 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 64.0
+offset_right = 243.0
+offset_bottom = 134.5
+
+[node name="transparent_drop_zone8" parent="transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8" unique_id=1772043307 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 64.0
+offset_right = 243.0
+offset_bottom = 134.5
+
+[node name="transparent_drop_zone8" parent="transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8" unique_id=1928056064 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 64.0
+offset_right = 243.0
+offset_bottom = 134.5
+
+[node name="transparent_drop_zone8" parent="transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8" unique_id=1859437871 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 64.0
+offset_right = 243.0
+offset_bottom = 134.5
+
+[node name="transparent_drop_zone8" parent="transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8" unique_id=570308201 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 64.0
+offset_right = 243.0
+offset_bottom = 134.5
+
+[node name="transparent_drop_zone8" parent="transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8/transparent_drop_zone8" unique_id=976197356 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 64.0
+offset_right = 243.0
+offset_bottom = 134.5
+
+[node name="transparent_drop_zone11" parent="." unique_id=944600659 instance=ExtResource("6_kdubu")]
+offset_left = 719.0
+offset_top = 137.0
+offset_right = 962.0
+offset_bottom = 207.5
+
+[node name="transparent_drop_zone10" parent="." unique_id=974523688 instance=ExtResource("6_kdubu")]
+offset_left = 716.0
+offset_top = 265.0
+offset_right = 959.0
+offset_bottom = 335.5
+
+[node name="transparent_drop_zone10" parent="transparent_drop_zone10" unique_id=1088013647 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 131.0
+offset_right = 243.0
+offset_bottom = 201.5
+
+[node name="transparent_drop_zone10" parent="transparent_drop_zone10/transparent_drop_zone10" unique_id=1400499447 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_top = 131.0
+offset_right = 243.0
+offset_bottom = 201.5
+
+[node name="transparent_drop_zone12" parent="." unique_id=1704704427 instance=ExtResource("6_kdubu")]
+offset_left = 240.0
+offset_top = 334.0
+offset_right = 483.0
+offset_bottom = 404.5
+
+[node name="transparent_drop_zone12" parent="transparent_drop_zone12" unique_id=337017496 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 54.0
+offset_right = 246.0
+offset_bottom = 124.5
+
+[node name="transparent_drop_zone12" parent="transparent_drop_zone12/transparent_drop_zone12" unique_id=1630925311 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_left = -3.0
+offset_top = -317.0
+offset_right = 240.0
+offset_bottom = -246.5
+
+[node name="transparent_drop_zone13" parent="." unique_id=686965025 instance=ExtResource("6_kdubu")]
+offset_left = 719.0
+offset_top = 591.0
+offset_right = 962.0
+offset_bottom = 661.5
+
+[node name="transparent_drop_zone13" parent="transparent_drop_zone13" unique_id=2090925062 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_left = -722.0
+offset_top = -319.0
+offset_right = -479.0
+offset_bottom = -248.5
+
+[node name="transparent_drop_zone13" parent="transparent_drop_zone13/transparent_drop_zone13" unique_id=452116018 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_left = -212.0
+offset_top = 59.0
+offset_right = 31.0
+offset_bottom = 129.5
+
+[node name="transparent_drop_zone13" parent="transparent_drop_zone13/transparent_drop_zone13/transparent_drop_zone13" unique_id=1866249097 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_left = 458.0
+offset_top = 193.0
+offset_right = 701.0
+offset_bottom = 263.5
+
+[node name="transparent_drop_zone13" parent="transparent_drop_zone13/transparent_drop_zone13/transparent_drop_zone13/transparent_drop_zone13" unique_id=995288462 instance=ExtResource("6_kdubu")]
+layout_mode = 0
+offset_left = -2.0
+offset_top = 68.0
+offset_right = 241.0
+offset_bottom = 138.5
