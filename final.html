@@ -16,8 +16,55 @@
 		<input type="password" name="">
 			<button onclick="changeToDesktop()">Login</button>
 	</div>
-	<div id="desktop" style="height: 100vh; text-align: center; justify-content: center; align-items: center; display: none;">
-		<h1>Logged in</h1>
+	<!-- insert dino background image -->
+	<div id="desktop" style="height: 100vh;display: none;">
+		<div style="height: 100vh; text-align: center; justify-content: center; align-items: center; ">
+			<a href="#congratulations_dialog">
+			<button>Finished?</button>
+			</a>
+		</div>
+		
+		<div class="window active glass" id="congratulations_dialog" role="dialog" aria-labelledby="dialog-title">
+			<div class="title-bar">
+		    	<div class="title-bar-text" id="dialog-title">
+		    	Congratulations!
+				</div>
+		    	<div class="title-bar-controls">
+		    		<button aria-label="Close" onclick="history.back()"></button>
+		    	</div>
+			</div>
+			<div class="window-body has-space">
+				<h1 class="instruction instruction-primary">Congratulations, you have finished the game!</h1>
+				<h2 class="instruction instruction-secondary">We hope you have enjoyed the game, and the summer reading program as a whole.</h2>
+			</div>
+			<footer style="text-align: right">
+				<a href="#credits_dialog">
+					<button>Credits</button>
+				</a>
+			</footer>
+		</div>
+		<div class="window active glass" id="credits_dialog" role="dialog" aria-labelledby="dialog-title">
+			<div class="title-bar">
+		    	<div class="title-bar-text" id="dialog-title">
+		    	Credits
+				</div>
+		    	<div class="title-bar-controls">
+		    		<button aria-label="Close" onclick="history.back()"></button>
+		    	</div>
+			</div>
+			<div class="window-body has-space">
+				<ul>
+					<li>Project Director/Supervisor: Teagan Watkins</li>
+					<li>Lead Programmer: Maxwell Lenhoff</li>
+					<li>Secondary Programmer and Document Creator: Miles Lenhoff</li>
+				</ul>
+			</div>
+			<footer style="text-align: right">
+				<a href=#congratulations_dialog>
+					<button>Close</button>
+				</a>
+			</footer>
+		</div>
 	</div>
 </body>
 </html>
