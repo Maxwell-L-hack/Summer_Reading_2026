@@ -3,6 +3,12 @@
 	<meta charset="utf-8">
 	<title>Hacky page</title>
 	<link rel="stylesheet" type="text/css" href="7.css">
+	<style>
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+	</style>
 	<script src="./final.js"></script>
 </head>
 <body>
@@ -10,7 +16,7 @@
 		<input type="password" name="">
 			<button onclick="changeToDesktop()">Login</button>
 	</div>
-	<div id="desktop" style="height: 100vh; text-align: center; justify-content: center; align-items: center; display: flex;">
+	<div id="desktop" style="height: 100vh; text-align: center; justify-content: center; align-items: center; display: none;">
 		<h1>Logged in</h1>
 	</div>
 </body>

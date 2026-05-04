@@ -1,4 +1,4 @@
 function changeToDesktop() {
-	document.getElementById('login').style.visibility = 'hidden';
-	document.getElementById('desktop').style.visibility = 'visible';
+	document.getElementById('login').style.display = 'none';
+	document.getElementById('desktop').style.display = 'flex';
 }
