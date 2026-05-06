@@ -9,63 +9,63 @@
 			margin: 0;
 		}
 	</style>
-	<script src="./final.js"></script>
 </head>
 <body>
 	<div id="login" style="height: 100vh; text-align: center; justify-content: center; align-items: center; display: flex;">
-		<input type="password" name="">
+		<input type="password" id="final_password">
 			<button onclick="changeToDesktop()">Login</button>
 	</div>
-	<!-- insert dino background image -->
-	<div id="desktop" href="#congratulations_dialog" style="height: 100vh;display: none;">
-		<div class="window active glass" id="congratulations_dialog" role="dialog" aria-labelledby="dialog-title">
-			<div class="title-bar">
-		    	<div class="title-bar-text" id="dialog-title">
-		    	Congratulations!
+		<!-- insert dino background image -->
+		<div id="desktop" href="#congratulations_dialog" style="height: 100vh;display: none;">
+			<div class="window active glass" id="congratulations_dialog" role="dialog" aria-labelledby="dialog-title">
+				<div class="title-bar">
+			    	<div class="title-bar-text" id="dialog-title">
+			    	Congratulations!
+					</div>
+			    	<div class="title-bar-controls">
+			    		<button aria-label="Close" onclick="history.back()"></button>
+			    	</div>
 				</div>
-		    	<div class="title-bar-controls">
-		    		<button aria-label="Close" onclick="history.back()"></button>
-		    	</div>
-			</div>
-			<div class="window-body has-space">
-				<h1 class="instruction instruction-primary">Congratulations, you have finished the game!</h1>
-				<h2 class="instruction instruction-secondary">We hope you have enjoyed the game, and the summer reading program as a whole.</h2>
-			</div>
-			<footer style="text-align: right">
-				<a href="#credits_dialog">
-					<button>Credits</button>
-				</a>
-			</footer>
-		</div>
-		<div class="window active glass" id="credits_dialog" role="dialog" aria-labelledby="dialog-title">
-			<div class="title-bar">
-		    	<div class="title-bar-text" id="dialog-title">
-		    	Credits
+				<div class="window-body has-space">
+					<h1 class="instruction instruction-primary">Congratulations, you have finished the game!</h1>
+					<h2 class="instruction instruction-secondary">We hope you have enjoyed the game, and the summer reading program as a whole.</h2>
 				</div>
-		    	<div class="title-bar-controls">
-		    		<button aria-label="Close" onclick="history.back()"></button>
-		    	</div>
+				<footer style="text-align: right">
+					<a href="#credits_dialog">
+						<button>Credits</button>
+					</a>
+				</footer>
 			</div>
-			<div class="window-body has-space">
-				<ul>
-					<li>Project Director/Supervisor: Teagan Watkins</li>
-				</ul>
-				<h2>Digital design team</h2>
-				<ul>
-					<li>Lead Programmer: Maxwell Lenhoff</li>
-					<li>Secondary Programmer and Document Creator: Miles Lenhoff</li>
-				</ul>
-				<h2>Physical design team</h2>
-				<ul>
-					<li>Maya</li>
-				</ul>
+			<div class="window active glass" id="credits_dialog" role="dialog" aria-labelledby="dialog-title">
+				<div class="title-bar">
+			    	<div class="title-bar-text" id="dialog-title">
+			    	Credits
+					</div>
+			    	<div class="title-bar-controls">
+			    		<button aria-label="Close" onclick="history.back()"></button>
+			    	</div>
+				</div>
+				<div class="window-body has-space">
+					<ul>
+						<li>Project Director/Supervisor: Teagan Watkins</li>
+					</ul>
+					<h2>Digital design team</h2>
+					<ul>
+						<li>Lead Programmer: Maxwell Lenhoff</li>
+						<li>Secondary Programmer and Document Creator: Miles Lenhoff</li>
+					</ul>
+					<h2>Physical design team</h2>
+					<ul>
+						<li>Maya</li>
+					</ul>
+				</div>
+				<footer style="text-align: right">
+					<a href=#congratulations_dialog>
+						<button>Close</button>
+					</a>
+				</footer>
 			</div>
-			<footer style="text-align: right">
-				<a href=#congratulations_dialog>
-					<button>Close</button>
-				</a>
-			</footer>
 		</div>
-	</div>
+	<script src="./final.js"></script>
 </body>
 </html>
