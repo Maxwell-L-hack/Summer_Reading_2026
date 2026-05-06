@@ -1,0 +1,9 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1772666986
+dna1.png::CompressedTexture2D::5522576187217815106::1772666986::1772666986::1::::<><><>0<>0<>439481b6257ee957160e5f86ea379059<>res://.godot/imported/dna1.png-6aede50a8681d99ce4d85a42bc0215fe.ctex::
+dna2.png::CompressedTexture2D::161399049367606812::1772666986::1772666986::1::::<><><>0<>0<>273c20e542ba6e2c7c9c80ad88d546f6<>res://.godot/imported/dna2.png-4d0d715cbde2e2af983e35fbe53478f4.ctex::
+dna3.png::CompressedTexture2D::8217369848142403822::1772666986::1772666986::1::::<><><>0<>0<>f5b94be41a8eafee585c81e9361f3638<>res://.godot/imported/dna3.png-0c0e4ef8d006084706f07d4dfd0a6e42.ctex::
+dna4.png::CompressedTexture2D::8078564669354176219::1772666986::1772666986::1::::<><><>0<>0<>c83cdb9c94fbff36abba600fd711fd1e<>res://.godot/imported/dna4.png-8b32fa4dcf74c84ddb4200f42e27af3c.ctex::
+icon.svg::CompressedTexture2D::6139694446623803292::1772666563::1772666572::1::::<><><>0<>0<>d805d150d6c1261962b37a973a4b6027<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+item_list.gd::GDScript::4690674185005150018::1772666631::0::1::::<>ItemList<><>0<>0<><>::
+node_2d.tscn::PackedScene::2254403434955368377::1772666649::0::1::::<><><>0<>0<><>::uid://b73gyoumcdony::::res://item_list.gd

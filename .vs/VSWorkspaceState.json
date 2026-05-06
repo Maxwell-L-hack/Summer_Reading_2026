@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Assets"
+    "\\Assets",
+    "\\Assets\\Fonts"
   ],
-  "SelectedNode": "\\auction.css",
+  "SelectedNode": "\\Assets\\Fonts\\PinyonScript-Regular.ttf",
   "PreviewInSolutionExplorer": false
 }
