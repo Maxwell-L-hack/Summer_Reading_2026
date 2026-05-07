@@ -16,6 +16,13 @@ finalPasswordInput.addEventListener("keypress", function(event) {
 	}
 });
 
+
+function loginButtonCheck() {
+
+	finalPassword = finalPasswordInput.value;
+	finalPasswordCheck(finalPassword);
+}
+
 function finalPasswordCheck(finalPasswordString) {
 	console.log(finalPasswordString)
 	if (finalPasswordString === "secret code") {
