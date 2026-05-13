@@ -1,4 +1,13 @@
+html {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+header {
+    font-family: 'Eurostile Bold';
+    font-size: 30px;
+}
 button {
-	font-style: bold;
-	font-family: 'Eurostile Bold';
+    font-family: 'Eurostile Bold';
 }
