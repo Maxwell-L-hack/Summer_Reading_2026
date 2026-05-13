@@ -1,22 +1,27 @@
 const dnaInput = document.getElementById("dna_code");
-let dnaCodeString;
+const dnA1 = "Noj txhua yam";
+const dnA2 = "Kai vao";
+const dnA3 = "Kjotteter";
 
-dnaInput.addEventListener("keypress", function(event) {
+function checkCode(event) {
     if (event.key === "Enter") {
         dnaCodeString = dnaInput.value;
-        handleDnaCode(dnaCodeString);
+        if (dnaCodeString.includes(dnA1)) { 
+            dnaInput.removeEventListener('keypress', checkCode);
+            window.location.href = 'dna0/dna.html';
+        } else {
+            if (dnaCodeString.includes(dnA2)) {
+                dnaInput.removeEventListener('keypress', checkCode);
+                window.location.href = 'dna1/dna.html';
+            } else { 
+                if (dnaCodeString.includes(dnA3)) { 
+                    dnaInput.removeEventListener('keypress', checkCode);
+                window.location.href = 'dna2/dna.html';
+                }
+            }
+            //handleDnaCode(dnaCodeString);
+        }
     }
-});
+};
 
-function handleDnaCode(code) {
-    console.log(code);
-    if (code === "Kjotteter") {
-        loadDna("Carnivore")
-    }
-    else if (code === "Kai vao") {
-        loadDna("Herbivore")
-    }
-    else if (code === "Noj txhua yam") {
-        loadDna("Omnivore")
-    }
-}
+dnaInput.addEventListener('keypress', checkCode);
