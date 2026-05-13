@@ -7,9 +7,9 @@
 <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
 <body style="display: flex; flex-wrap: wrap; flex-direction: column; align-items: center; height: 100vh;">
-    <header style="font-weight: bold;">DNA Recovery</header>
-    <p>You are back to recover the DNA from the Corporate Corporation.  This is a top secret mission, so we will speak in code.  To find the USB containing the information on how to steal back the DNA, decipher this message using the provided table.  Read as row then column.</p>
-    <table style="display: table; text-align: center;">
+    <header style="font-weight: bold; font-size: 40px;">DNA Recovery</header>
+    <p style="padding-top: 20px;">You are back to recover the DNA from the Corporate Corporation.  This is a top secret mission, so we will speak in code.  To find the USB containing the information on how to steal back the DNA, decipher this message using the provided table.  Read as row then column.</p>
+    <table style="display: table; text-align: center; padding: 30px; font-size: 20px;">
         <tbody>
             <tr>
                 <th></th>
@@ -20,15 +20,15 @@
                 <th>5</th>
             </tr>
             <tr>
-                <td>1</td>
+                <td style="font-weight: bold; padding-right: 7px;">1</td>
                 <td>A</td>
                 <td>B</td>
                 <td>C\K</td>
                 <td>D</td>
                 <td>E</td>
-            </tr>
-            <tr>
-                <td>2</td>
+            </tr>  
+            <tr>   
+                <td style="font-weight: bold; padding-right: 7px;">2</td>
                 <td>F</td>
                 <td>G</td>
                 <td>H</td>
@@ -36,7 +36,7 @@
                 <td>J</td>
             </tr>
             <tr>
-                <td>3</td>
+                <td style="font-weight: bold; padding-right: 7px;">3</td>
                 <td>L</td>
                 <td>M</td>
                 <td>N</td>
@@ -44,7 +44,7 @@
                 <td>P</td>
             </tr>
             <tr>
-                <td>4</td>
+                <td style="font-weight: bold; padding-right: 7px;">4</td>
                 <td>Q</td>
                 <td>R</td>
                 <td>S</td>
@@ -52,7 +52,7 @@
                 <td>U</td>
             </tr>
             <tr>
-                <td>5</td>
+                <td style="font-weight: bold; padding-right: 7px;">5</td>
                 <td>V</td>
                 <td>W</td>
                 <td>X</td>
@@ -71,13 +71,16 @@
         <div class="modeless-dialog" style="justify-content: center; margin: auto;">
             <section class="field-row" style="justify-content: flex-start">
                 <label for="text_find" class="modeless-text">Enter:</label>
-                <input id="text_field" type="password" style="width: 100%;" placeholder="Code" />
+                <form action="final.html">
+                    <input id="text_field" type="password" style="width: 200%;" placeholder="Code" />
+                </form>
             </section>
             <section class="field-row" style="justify-content: flex-end">
                 <button class="btn">Cancel</button>
                 <button class="btn" stlyle="width: 95px;">Check</button>
             </section>
         </div>
+        <a id="final" href="final.html"></a>
     </div>
     <script src="dnarec.js"></script>
 </body>
