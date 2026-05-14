@@ -1,11 +1,12 @@
 [gd_scene format=3 uid="uid://bqjvvb04y12ln"]
 
 [ext_resource type="PackedScene" uid="uid://ysddcwjgp0jm" path="res://main.tscn" id="1_wtcfe"]
-[ext_resource type="Texture2D" uid="uid://p0nitmq0p1rr" path="res://dna1.png" id="2_0e48y"]
+[ext_resource type="Texture2D" uid="uid://dhjj5ty0s36ty" path="res://dna1.png" id="2_d21ai"]
 [ext_resource type="Texture2D" uid="uid://e58i1428lj1u" path="res://dna-green.png" id="3_kdubu"]
 [ext_resource type="Texture2D" uid="uid://bsolt3ydbfptm" path="res://dna-yellow.png" id="4_kdubu"]
 [ext_resource type="Texture2D" uid="uid://bimnobeyi6n31" path="res://dna-pink.png" id="5_kdubu"]
 [ext_resource type="PackedScene" uid="uid://swplkwk8ry8t" path="res://transparent_drop_zone.tscn" id="6_kdubu"]
+[ext_resource type="AudioStream" uid="uid://c34ywcrg7g7vj" path="res://DNA_game_music.mp3" id="7_d21ai"]
 
 [node name="Node2D" type="Node2D" unique_id=400444941]
 
@@ -15,7 +16,7 @@ offset_left = 718.0
 offset_top = 69.0
 offset_right = 961.0
 offset_bottom = 139.5
-texture = ExtResource("2_0e48y")
+texture = ExtResource("2_d21ai")
 
 [node name="TextureRect2" parent="." unique_id=1604301301 instance=ExtResource("1_wtcfe")]
 texture_filter = 1
@@ -87,7 +88,7 @@ offset_left = 231.0
 offset_top = 205.0
 offset_right = 474.0
 offset_bottom = 275.5
-texture = ExtResource("2_0e48y")
+texture = ExtResource("2_d21ai")
 flip_h = true
 
 [node name="TextureRect11" parent="." unique_id=834325173 instance=ExtResource("1_wtcfe")]
@@ -390,3 +391,7 @@ offset_left = -2.0
 offset_top = 68.0
 offset_right = 241.0
 offset_bottom = 138.5
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1162212684]
+stream = ExtResource("7_d21ai")
+autoplay = true

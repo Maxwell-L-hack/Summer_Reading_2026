@@ -4,9 +4,9 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1777417989|2446339785';
+const CACHE_VERSION = '1778796124|303098196';
 /** @type {string} */
-const CACHE_PREFIX = 'dna-sw-cache-';
+const CACHE_PREFIX = 'dna0-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 /** @type {string} */
 const OFFLINE_URL = 'dna.offline.html';
