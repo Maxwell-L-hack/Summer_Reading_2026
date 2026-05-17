@@ -13,6 +13,8 @@ config_version=5
 config/name="dna0"
 run/main_scene="uid://bqjvvb04y12ln"
 config/features=PackedStringArray("4.6", "GL Compatibility")
+boot_splash/bg_color=Color(0.49803922, 0.003921569, 0.98039216, 1)
+boot_splash/image="uid://b4vmxskgynqvo"
 config/icon="uid://b4vmxskgynqvo"
 
 [physics]
