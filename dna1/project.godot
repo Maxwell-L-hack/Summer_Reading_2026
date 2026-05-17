@@ -13,7 +13,7 @@ config_version=5
 config/name="dna1"
 run/main_scene="uid://bqjvvb04y12ln"
 config/features=PackedStringArray("4.6", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="uid://ruft64xhveu2"
 
 [physics]
 
