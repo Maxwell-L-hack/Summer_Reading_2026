@@ -13,7 +13,9 @@ config_version=5
 config/name="dna1"
 run/main_scene="uid://bqjvvb04y12ln"
 config/features=PackedStringArray("4.6", "GL Compatibility")
-config/icon="res://icon.svg"
+boot_splash/bg_color=Color(0.49803922, 0.003921569, 0.98039216, 1)
+boot_splash/image="uid://ruft64xhveu2"
+config/icon="uid://ruft64xhveu2"
 
 [physics]
 

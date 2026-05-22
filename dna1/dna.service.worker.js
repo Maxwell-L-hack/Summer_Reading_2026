@@ -4,20 +4,20 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1777499829|1063495487';
+const CACHE_VERSION = '1779048285|243423461';
 /** @type {string} */
 const CACHE_PREFIX = 'dna1-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 /** @type {string} */
-const OFFLINE_URL = 'dna1.offline.html';
+const OFFLINE_URL = 'dna.offline.html';
 /** @type {boolean} */
 const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = true;
 // Files that will be cached on load.
 /** @type {string[]} */
-const CACHED_FILES = ["dna1.html","dna1.js","dna1.offline.html","dna1.icon.png","dna1.apple-touch-icon.png","dna1.audio.worklet.js","dna1.audio.position.worklet.js"];
+const CACHED_FILES = ["dna.html","dna.js","dna.offline.html","dna.icon.png","dna.apple-touch-icon.png","dna.audio.worklet.js","dna.audio.position.worklet.js"];
 // Files that we might not want the user to preload, and will only be cached on first load.
 /** @type {string[]} */
-const CACHEABLE_FILES = ["dna1.wasm","dna1.pck"];
+const CACHEABLE_FILES = ["dna.wasm","dna.pck"];
 const FULL_CACHE = CACHED_FILES.concat(CACHEABLE_FILES);
 
 self.addEventListener('install', (event) => {
