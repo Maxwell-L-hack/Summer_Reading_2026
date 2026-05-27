@@ -138,6 +138,13 @@ h2 {
     font-size: 20px
 }
 
+.hint {
+    font-size: 18px;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+}
+
 .standard-button {
     display: block;
     min-height: 20px;
