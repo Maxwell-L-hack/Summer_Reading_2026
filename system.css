@@ -133,6 +133,11 @@ h2 {
     font-size: 200%;
 }
 
+.instructions {
+    padding-top: 20px;
+    font-size: 20px
+}
+
 .standard-button {
     display: block;
     min-height: 20px;
