@@ -1,6 +1,11 @@
 /*! system.css v0.1.11 - https://github.com/sakofchit/system.css */
 
 @font-face {
+    font-family: 'MorseCode';
+    src: url('Assets/Fonts/MorseCode.ttf') format('truetype');
+}
+
+@font-face {
     font-family: Chicago;
     src: url(ChicagoFLF.woff) format("woff");
     src: url(ChicagoFLF.woff2) format("woff2")
@@ -121,6 +126,11 @@ hr {
 
 h2 {
     font-size: 2em
+}
+
+.morse {
+    font-family: 'MorseCode';
+    font-size: 200%;
 }
 
 .standard-button {
