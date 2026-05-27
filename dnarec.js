@@ -1,5 +1,5 @@
 const input = document.querySelector('#text_field');
-const answerToCheck = "9.1.26";
+const answerToCheck = "MacOS9.1.26";
 
 function checkCode(event) {
 	if (event.key === "Enter") {
