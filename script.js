@@ -1,10 +1,10 @@
-const input = document.querySelector('#text_box');
+const number = document.querySelector('#text_box');
 const answerToCheck = "0000:00FF";
 
 function checkCode(event) {
 	if (event.key === "Enter") {
-		let inputValue = input.value;
-		if (inputValue.includes(answerToCheck)) {
+		let numberValue = number.value;
+		if (numberValue.includes(answerToCheck)) {
 			message = "That is the correct code!"
 			console.log("Correct code entered");
 			input.removeEventListener('keypress', checkCode);
