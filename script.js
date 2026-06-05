@@ -119,7 +119,7 @@ function loginButtonCheck() {
 // Final Password Check
 function finalPasswordCheck(finalPassword) {
     console.log(finalPassword);
-    if (finalPassword === "itisdone") {
+    if (finalPassword === "IL0V3money!") {
         changeToDesktop();
     } else {
         console.log("That is not the correct code");
