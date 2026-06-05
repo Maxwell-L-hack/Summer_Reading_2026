@@ -24,6 +24,7 @@ p {
     display: block;
     margin: 50px auto;
 }
+
 .moneybutton {
     padding: 3px 6px 3px 6px;
     margin: 10px 10px auto;
@@ -54,4 +55,8 @@ p {
     display: flex;
     margin: 20px 0px 0px 5px;
     justify-content: right;
+}
+
+.input {
+    width: 80%;
 }
