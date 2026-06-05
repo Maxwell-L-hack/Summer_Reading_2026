@@ -117,9 +117,9 @@ function loginButtonCheck() {
 }
 
 // Final Password Check
-function finalPasswordCheck(finalPasswordString) {
-    console.log(finalPasswordString);
-    if (finalPasswordString === "secret code") {
+function finalPasswordCheck(finalPassword) {
+    console.log(finalPassword);
+    if (finalPassword === "itisdone") {
         changeToDesktop();
     } else {
         console.log("That is not the correct code");
