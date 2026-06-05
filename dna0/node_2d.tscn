@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://bqjvvb04y12ln"]
 
+[ext_resource type="Script" uid="uid://cuh8mv46ufyf3" path="res://node_2d.gd" id="1_ir8iy"]
 [ext_resource type="PackedScene" uid="uid://ysddcwjgp0jm" path="res://main.tscn" id="1_wtcfe"]
 [ext_resource type="Texture2D" uid="uid://p0nitmq0p1rr" path="res://dna1.png" id="2_0e48y"]
 [ext_resource type="Texture2D" uid="uid://e58i1428lj1u" path="res://dna-green.png" id="3_kdubu"]
@@ -7,8 +8,11 @@
 [ext_resource type="Texture2D" uid="uid://bimnobeyi6n31" path="res://dna-pink.png" id="5_kdubu"]
 [ext_resource type="PackedScene" uid="uid://swplkwk8ry8t" path="res://transparent_drop_zone.tscn" id="6_kdubu"]
 [ext_resource type="AudioStream" uid="uid://du4eg61uerdwm" path="res://DNA_game_music.mp3" id="7_d21ai"]
+[ext_resource type="Script" uid="uid://clv4hwbsm5mfy" path="res://finished_button.gd" id="8_rj586"]
+[ext_resource type="Script" uid="uid://bo1uxqf8s6bc" path="res://rich_text_label.gd" id="9_4d7sh"]
 
 [node name="Node2D" type="Node2D" unique_id=400444941]
+script = ExtResource("1_ir8iy")
 
 [node name="TextureRect" parent="." unique_id=762736414 instance=ExtResource("1_wtcfe")]
 texture_filter = 1
@@ -395,3 +399,20 @@ offset_bottom = 138.5
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1733723415]
 stream = ExtResource("7_d21ai")
 autoplay = true
+
+[node name="Button" type="Button" parent="." unique_id=1307043107]
+offset_right = 65.0
+offset_bottom = 27.0
+text = "Finished?"
+script = ExtResource("8_rj586")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=170429658]
+offset_left = 87.0
+offset_top = -1.0
+offset_right = 633.0
+offset_bottom = 63.0
+mouse_filter = 2
+bbcode_enabled = true
+script = ExtResource("9_4d7sh")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

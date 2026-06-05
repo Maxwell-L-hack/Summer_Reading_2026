@@ -1,6 +1,7 @@
 extends TextureRect
 
 
+@warning_ignore("unused_parameter")
 func _get_drag_data(at_position):
 	
 	var preview_texture = TextureRect.new()
