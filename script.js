@@ -10,7 +10,7 @@ const dnaInput = document.getElementById("dna_code");
 const finalPasswordInput = document.getElementById("final_password");
 
 // ===== CONSTANTS =====
-const numberToCheck = "0000:00FF";
+const numberToCheck = "0000:01FF";
 const answerToCheck = "MacOS9.1.26";
 const dnA1 = "Noj txhua yam";
 const dnA2 = "Kai vao";

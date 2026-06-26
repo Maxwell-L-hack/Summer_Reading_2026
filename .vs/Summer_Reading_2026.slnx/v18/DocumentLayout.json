@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\dnarec.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dnarec.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\final.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:final.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\system.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:system.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\auction.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:auction.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\auction.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:auction.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownPreview",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownPreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,32 +68,83 @@
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "system.css",
-              "DocumentMoniker": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\system.css",
-              "RelativeDocumentMoniker": "system.css",
-              "ToolTip": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\system.css",
-              "RelativeToolTip": "system.css",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAkwJAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-27T22:28:58.506Z",
+              "DocumentIndex": 0,
+              "Title": "final.html",
+              "DocumentMoniker": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\final.html",
+              "RelativeDocumentMoniker": "final.html",
+              "ToolTip": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\final.html",
+              "RelativeToolTip": "final.html",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-05T16:28:26.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dnarec.html",
-              "DocumentMoniker": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\dnarec.html",
-              "RelativeDocumentMoniker": "dnarec.html",
-              "ToolTip": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\dnarec.html",
-              "RelativeToolTip": "dnarec.html",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADoAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\script.js",
+              "RelativeDocumentMoniker": "script.js",
+              "ToolTip": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\script.js",
+              "RelativeToolTip": "script.js",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAqwIEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-05T16:26:59.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "auction.html",
+              "DocumentMoniker": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\auction.html",
+              "RelativeDocumentMoniker": "auction.html",
+              "ToolTip": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\auction.html",
+              "RelativeToolTip": "auction.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-13T20:42:15.967Z",
+              "WhenOpened": "2026-06-05T16:17:46.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "auction.css",
+              "DocumentMoniker": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\auction.css",
+              "RelativeDocumentMoniker": "auction.css",
+              "ToolTip": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\auction.css",
+              "RelativeToolTip": "auction.css",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-05T16:17:42.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "README.md [Preview]",
+              "DocumentMoniker": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\README.md [Preview]",
+              "RelativeToolTip": "README.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-05T16:10:55.223Z",
+              "EditorCaption": " [Preview]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\SaintPeter\\Desktop\\Summer_Reading_2026\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAACMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-05T16:08:25.91Z",
               "EditorCaption": ""
             }
           ]
